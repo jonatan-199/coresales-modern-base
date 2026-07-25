@@ -1,0 +1,6 @@
+@import url('variables.css');
+body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb}
+.app{display:grid;grid-template-columns:260px 1fr;min-height:100vh}
+.sidebar{background:#0f172a;color:#fff;padding:20px}
+header,footer{padding:16px;background:#fff}
+#dashboard{padding:24px}
