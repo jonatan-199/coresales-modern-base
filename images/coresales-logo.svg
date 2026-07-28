@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="220" viewBox="0 0 900 220"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+
+        <linearGradient id="blue1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#3B82F6"/>
+            <stop offset="100%" stop-color="#2563EB"/>
+        </linearGradient>
+
+        <linearGradient id="blue2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1D4ED8"/>
+            <stop offset="100%" stop-color="#0F2F8C"/>
+        </linearGradient>
+
+        <linearGradient id="blue3" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#60A5FA"/>
+            <stop offset="100%" stop-color="#2563EB"/>
+        </linearGradient>
+
+    </defs>
+
+    <!-- ============================= -->
+    <!-- ISOTIPO -->
+    <!-- ============================= -->
+
+    <g transform="translate(20,20)">
+
+        <!-- Cara izquierda -->
+
+        <polygon
+            points="90,0 20,40 20,120 90,160 90,120 55,100 55,60 90,40"
+            fill="url(#blue1)"/>
+
+        <!-- Cara superior -->
+
+        <polygon
+            points="90,0 160,40 125,60 55,20"
+            fill="url(#blue3)"/>
+
+        <!-- Cara derecha -->
+
+        <polygon
+            points="160,40 160,120 90,160 90,120 125,100 125,60"
+            fill="url(#blue2)"/>
+
+        <!-- Cubo interno -->
+
+        <polygon
+            points="90,65 125,85 125,120 90,140"
+            fill="#FFFFFF"/>
+
+    </g>
+
+    <!-- ============================= -->
+    <!-- TEXTO -->
+    <!-- ============================= -->
+
+    <text
+        x="235"
+        y="95"
+        font-family="Segoe UI, Arial, Helvetica, sans-serif"
+        font-size="78"
+        font-weight="700"
+        fill="#081B63">
+
+        CoreSales
+
+    </text>
+
+    <text
+        x="238"
+        y="165"
+        font-family="Segoe UI, Arial, Helvetica, sans-serif"
+        font-size="64"
+        font-weight="700"
+        fill="#2563EB">
+
+        Modern
+
+    </text>
+
+</svg>
